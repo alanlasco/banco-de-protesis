@@ -9,10 +9,14 @@ export const Navbar = () => {
 
       <ul className="nav-links">
         <li>
-          <a href="/">EXCEL 2026</a>
+          <a href="/" target="_blank">
+            EXCEL 2026
+          </a>
         </li>
         <li>
-          <a href="https://www.ilovepdf.com/es/unir_pdf">ILOVEPDF</a>
+          <a href="https://www.ilovepdf.com/es/unir_pdf" target="_blank">
+            ILOVEPDF
+          </a>
         </li>
       </ul>
     </nav>
