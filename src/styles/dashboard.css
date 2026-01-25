@@ -1,4 +1,14 @@
 /* Dashboard.css */
+.cuil-links {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.cuil-links button {
+    flex: 1;
+    /* opcional: mismos anchos */
+}
 
 .dashboard {
     display: grid;
