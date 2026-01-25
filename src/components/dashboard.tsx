@@ -3,6 +3,7 @@ import "../styles/dashboard.css";
 
 import Btn from "./btn";
 import { openAll, openMultipleUrls } from "../utils/buttonActions";
+import CuilCalculator from "./CuilCalculator";
 export const Dashboard = () => {
   return (
     <div className="dashboard">
@@ -23,7 +24,10 @@ export const Dashboard = () => {
         />
       </div>
       <div className="section">Sección 2</div>
-      <div className="section">Sección 3</div>
+      <div className="section">
+        <p>Seccion 4</p>
+        <CuilCalculator />
+      </div>
       <div className="section">Sección 4</div>
     </div>
   );
