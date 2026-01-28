@@ -29,6 +29,11 @@
     gap: 8px;
 }
 
+.ilovepdf {
+    color: red;
+    font-weight: 600;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .dashboard {

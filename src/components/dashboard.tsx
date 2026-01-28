@@ -32,14 +32,16 @@ export const Dashboard = () => {
         <div className="cuil-container">
           <div className="cuil-links">
             <Btn
-              label="INTRANET"
-              onClick={() =>
-                openUrl("https://sistemas.ms.gba.gov.ar/intranet/intranet.php")
-              }
+              label="WEB MAIL"
+              onClick={() => openUrl("https://webmail.ms.gba.gov.ar/")}
             />{" "}
             <Btn
-              label="GDEBA"
-              onClick={() => openUrl("https://gdeba.gba.gob.ar/")}
+              label="MAIL PROVEEDORES"
+              onClick={() =>
+                openUrl(
+                  "https://webmail.proveedoresba.cgp.gba.gov.ar/webmail/?_task=mail&_mbox=INBOX"
+                )
+              }
             />
           </div>
         </div>
@@ -70,7 +72,20 @@ export const Dashboard = () => {
         </div>
         <CuilCalculator />
       </div>
-      <div className="section">Sección 4</div>
+      <div className="section">
+        <p className="ilovepdf">ILOVEPDF</p>
+
+        <Btn
+          label="UNIR PDF"
+          onClick={() => openUrl("https://www.ilovepdf.com/es/unir_pdf")}
+        />
+        <Btn
+          label="EXTRAER PAGINAS"
+          onClick={() =>
+            openUrl("https://www.ilovepdf.com/es/dividir_pdf#split,extract")
+          }
+        />
+      </div>
     </div>
   );
 };
