@@ -1,13 +1,29 @@
 import React from "react";
 import "../styles/navbar.css";
+import Dropdown from "./Dropdown";
+import logo from "../images/logo.png";
 export const Navbar = () => {
+  const hojasdecalculo = [
+    {
+      label: "CONTROL HEMODINAMIA",
+      url: "https://docs.google.com/spreadsheets/d/12K0M2iVDr2W1xaI5HQlYUtFfyHaSn7dt/edit?gid=358932270#gid=358932270",
+    },
+    { label: "FORMULARIO", url: "https://forms.gle/HbzDJ7Vp8fVvKSvi9" },
+    {
+      label: "RESPUESTAS DEL FORMULARIO",
+      url: "https://docs.google.com/spreadsheets/d/1zmIh7_KHHNYgqF3mY9WHIex2JoJ3V-NVg2RxUZUXOmI/edit?gid=208712628#gid=208712628",
+    },
+  ];
   return (
     <nav className="navbar">
       <div className="nav-icon">
-        <span>⚙</span>
+        <img src={logo} alt="Logo" className="nav-logo" />
       </div>
 
       <ul className="nav-links">
+        <li>
+          <Dropdown title="HOJAS DE CALCULO" links={hojasdecalculo} />
+        </li>
         <li className="excel">
           <a
             href="https://docs.google.com/spreadsheets/d/1zmIh7_KHHNYgqF3mY9WHIex2JoJ3V-NVg2RxUZUXOmI/edit?gid=892634960#gid=892634960"

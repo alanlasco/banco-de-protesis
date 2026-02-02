@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 3.5rem;
+    height: 5rem;
     padding: 0 1.5rem;
     background-color: #333333;
     border-bottom: 1px solid #ddd;
@@ -11,10 +11,23 @@
 /* ICONO */
 
 .nav-icon {
+    padding-left: 1rem;
     display: flex;
     align-items: center;
     color: white;
-    font-size: 1.25rem;
+    overflow: hidden;
+    width: 9rem;
+
+
+}
+
+.nav-logo {
+    object-fit: cover;
+    height: 5rem;
+    width: 7rem;
+    border-radius: 65%;
+    transform: scale(1.25);
+
 }
 
 /* LINKS */
