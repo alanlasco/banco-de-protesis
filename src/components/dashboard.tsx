@@ -43,6 +43,14 @@ export const Dashboard = () => {
                 )
               }
             />
+                        <Btn
+              label="GMAIL"
+              onClick={() =>
+                openUrl(
+                  "https://mail.google.com/mail/u/0/#inbox"
+                )
+              }
+            />
           </div>
         </div>
       </div>
