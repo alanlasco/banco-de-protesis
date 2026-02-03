@@ -26,10 +26,10 @@ export const Navbar = () => {
         </li>
         <li className="excel">
           <a
-            href="https://docs.google.com/spreadsheets/d/1zmIh7_KHHNYgqF3mY9WHIex2JoJ3V-NVg2RxUZUXOmI/edit?gid=892634960#gid=892634960"
+            href="https://docs.google.com/spreadsheets/d/1IFR5g32Vu2ZyWnh-knZv3tImO98zxZXvLMoGIRgiiqI/edit?gid=0#gid=0"
             target="_blank"
           >
-            EXCEL
+            SIPACH 2026
           </a>
         </li>
         <li className="excel">
