@@ -1,9 +1,9 @@
 import React from "react";
 import "../styles/dashboard.css";
 
-import Btn from "./btn";
 import { openAll, openMultipleUrls, openUrl } from "../utils/buttonActions";
 import CuilCalculator from "./CuilCalculator";
+import Btn from "./Btn";
 export const Dashboard = () => {
   return (
     <div className="dashboard">
@@ -43,13 +43,9 @@ export const Dashboard = () => {
                 )
               }
             />
-                        <Btn
+            <Btn
               label="GMAIL"
-              onClick={() =>
-                openUrl(
-                  "https://mail.google.com/mail/u/0/#inbox"
-                )
-              }
+              onClick={() => openUrl("https://mail.google.com/mail/u/0/#inbox")}
             />
           </div>
         </div>

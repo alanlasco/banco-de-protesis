@@ -1,8 +1,12 @@
 import React from "react";
 import "../styles/navbar.css";
 import Dropdown from "./Dropdown";
+import "../styles/dropdown.css";
 import logo from "../images/logo.png";
+import { FaTrello } from "react-icons/fa";
+
 export const Navbar = () => {
+  const Trello = FaTrello as React.FC;
   const hojasdecalculo = [
     {
       label: "CONTROL HEMODINAMIA",
@@ -10,7 +14,7 @@ export const Navbar = () => {
     },
     { label: "FORMULARIO", url: "https://forms.gle/HbzDJ7Vp8fVvKSvi9" },
     {
-      label: "RESPUESTAS DEL FORMULARIO",
+      label: "RESPUESTAS HEMODINAMIA",
       url: "https://docs.google.com/spreadsheets/d/1zmIh7_KHHNYgqF3mY9WHIex2JoJ3V-NVg2RxUZUXOmI/edit?gid=208712628#gid=208712628",
     },
   ];
@@ -21,6 +25,15 @@ export const Navbar = () => {
       </div>
 
       <ul className="nav-links">
+        <li className="trello">
+          <a href="https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3FreturnUrl%3D%252Fb%252FwY77dmc9%252Fmi-tablero-de-trello%26display%3D%26aaOnboarding%3D%26updateEmail%3D%26traceId%3D%26ssoVerified%3D%26createMember%3D%26jiraInviteLink%3D">
+            {" "}
+            <span className="sheetsIcon">
+              <Trello />
+            </span>
+            TRELLO
+          </a>
+        </li>
         <li>
           <Dropdown title="HOJAS DE CALCULO" links={hojasdecalculo} />
         </li>

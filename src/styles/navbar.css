@@ -24,7 +24,7 @@
 .nav-logo {
     object-fit: cover;
     height: 5rem;
-    width: 7rem;
+    width: 6rem;
     border-radius: 65%;
     transform: scale(1.25);
 
@@ -70,6 +70,10 @@
 /* BOTÓN GOB (VARIANTE) */
 .excel a:hover {
     color: #0F9D58;
+}
+
+.trello a:hover {
+    color: #0079BF;
 }
 
 .gob a {
