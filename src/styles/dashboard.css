@@ -1,3 +1,14 @@
+.negativas {
+    display: flex;
+    padding-top: 1rem;
+
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem
+}
+
+
+
 /* Dashboard.css */
 .cuil-links {
     display: flex;

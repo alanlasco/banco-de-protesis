@@ -26,6 +26,40 @@ export const Dashboard = () => {
           label="NEGATIVA ANSES(CODEM)"
           onClick={() => openUrl("https://servicioswww.anses.gob.ar/ooss2/")}
         />
+        <div className="negativas">
+          <Btn
+            label="ANSES"
+            onClick={() =>
+              openUrl("https://servicioswww.anses.gob.ar/censite/Index.aspx")
+            }
+          />
+          <Btn
+            label="SS"
+            onClick={() =>
+              openUrl(
+                "https://www.sssalud.gob.ar/index.php?page=bus650&user=GRAL&cat=consultas"
+              )
+            }
+          />
+          <Btn
+            label="PUCO"
+            onClick={() => openUrl("https://sisa.msal.gov.ar/sisa/#sisa")}
+          />
+          <Btn
+            label="PAMI"
+            onClick={() =>
+              openUrl("https://www.pami.org.ar/constancia-afiliacion-negativa")
+            }
+          />
+          <Btn
+            label="IOMA"
+            onClick={() =>
+              openUrl(
+                "http://sistemasl.ioma.gba.gov.ar/sistemas/consulta_padron_afiliados/consulta_afiliados.php"
+              )
+            }
+          />
+        </div>
       </div>
       <div className="section">
         <p>Sección 2</p>

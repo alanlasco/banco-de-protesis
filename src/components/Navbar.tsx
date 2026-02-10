@@ -26,7 +26,10 @@ export const Navbar = () => {
 
       <ul className="nav-links">
         <li className="trello">
-          <a href="https://id.atlassian.com/login?application=trello&continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3FreturnUrl%3D%252Fb%252FwY77dmc9%252Fmi-tablero-de-trello%26display%3D%26aaOnboarding%3D%26updateEmail%3D%26traceId%3D%26ssoVerified%3D%26createMember%3D%26jiraInviteLink%3D">
+          <a
+            href="https://trello.com/b/hfW5Yuc8/banco-de-protesis"
+            target="_blank"
+          >
             {" "}
             <span className="sheetsIcon">
               <Trello />
