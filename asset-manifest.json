@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/banco-de-protesis/static/css/main.dfe1893b.css",
-    "main.js": "/banco-de-protesis/static/js/main.1aa609a5.js",
+    "main.css": "/banco-de-protesis/static/css/main.978dfff6.css",
+    "main.js": "/banco-de-protesis/static/js/main.6b963432.js",
     "static/media/logo.png": "/banco-de-protesis/static/media/logo.400224aca096c30ef131.png",
     "index.html": "/banco-de-protesis/index.html",
-    "main.dfe1893b.css.map": "/banco-de-protesis/static/css/main.dfe1893b.css.map",
-    "main.1aa609a5.js.map": "/banco-de-protesis/static/js/main.1aa609a5.js.map"
+    "main.978dfff6.css.map": "/banco-de-protesis/static/css/main.978dfff6.css.map",
+    "main.6b963432.js.map": "/banco-de-protesis/static/js/main.6b963432.js.map"
   },
   "entrypoints": [
-    "static/css/main.dfe1893b.css",
-    "static/js/main.1aa609a5.js"
+    "static/css/main.978dfff6.css",
+    "static/js/main.6b963432.js"
   ]
 }
