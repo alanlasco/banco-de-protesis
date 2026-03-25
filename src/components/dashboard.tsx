@@ -81,6 +81,16 @@ export const Dashboard = () => {
               label="GMAIL"
               onClick={() => openUrl("https://mail.google.com/mail/u/0/#inbox")}
             />
+            <Btn
+              label="WhatsApp"
+              onClick={() => openUrl("https://web.whatsapp.com/")}
+            />
+          </div>
+          <div className="datosOficina">
+            <span className="spanDatosOficina">WhatsApp: 2215791532</span>
+            <span className="spanDatosOficina">
+              Gmail: bancodeprotesis.higasanmartin@gmail.com
+            </span>
           </div>
         </div>
       </div>

@@ -45,6 +45,19 @@
     font-weight: 600;
 }
 
+.datosOficina {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+.spanDatosOficina {
+    font-weight: 600;
+    font-size: 1.3rem;
+    padding: 1.5rem;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .dashboard {

@@ -14,7 +14,7 @@ export const Navbar = () => {
     },
     { label: "FORMULARIO", url: "https://forms.gle/HbzDJ7Vp8fVvKSvi9" },
     {
-      label: "RESPUESTAS HEMODINAMIA",
+      label: "PARA NOMINALIZAR",
       url: "https://docs.google.com/spreadsheets/d/1zmIh7_KHHNYgqF3mY9WHIex2JoJ3V-NVg2RxUZUXOmI/edit?gid=208712628#gid=208712628",
     },
   ];
