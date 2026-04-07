@@ -1,0 +1,62 @@
+.Lcontainer {
+
+  padding: 1rem;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 90%;
+  /* Ancho ajustable */
+  max-width: 30rem;
+  /* Límite máximo */
+  height: auto;
+  max-height: 30rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  padding-bottom: 3rem;
+}
+
+.pContainer {
+  margin-right: 3rem;
+  margin-left: 3rem;
+
+}
+
+
+iframe {
+  width: 23rem;
+  /* Escala con el contenedor */
+  border-radius: 15px;
+  height: 40rem;
+  /* Mantén proporción */
+}
+
+
+.paddling {
+  height: 3rem;
+  width: 3rem;
+}
+
+.h {
+  display: none;
+}
+
+
+
+
+.paddlingContainer {
+  margin-right: 3rem;
+  display: flex;
+  align-items: center;
+  /* Centra verticalmente el contenido */
+  justify-content: space-between;
+  /* Espacia los elementos */
+}
+
+.paddlingContainer span,
+.paddlingContainer p {
+  margin: 0;
+  /* Elimina márgenes innecesarios */
+}
