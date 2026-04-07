@@ -8,7 +8,7 @@ export const Dashboard = () => {
   return (
     <div className="dashboard">
       <div className="section">
-        <p>Seccion 1</p>
+        <p className="texto">NEGATIVAS</p>
 
         <Btn
           label="ABRIR 5 NEGATIVAS"
@@ -62,7 +62,7 @@ export const Dashboard = () => {
         </div>
       </div>
       <div className="section">
-        <p>Sección 2</p>
+        <p className="texto">CONTACTOS</p>
         <div className="cuil-container">
           <div className="cuil-links">
             <Btn
@@ -95,7 +95,7 @@ export const Dashboard = () => {
         </div>
       </div>
       <div className="section">
-        <p>Seccion 4</p>
+        <p className="texto">CUIL</p>
         <div className="cuil-container">
           <div className="cuil-links">
             <Btn

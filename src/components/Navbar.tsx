@@ -9,6 +9,14 @@ export const Navbar = () => {
   const Trello = FaTrello as React.FC;
   const hojasdecalculo = [
     {
+      label: "ENTREGA BOLSAS Y SONDAS",
+      url: "https://docs.google.com/spreadsheets/d/1wPS4OxNh17smKOfDKGLNuhzYADN0AqQlaJXreqWg-iE/edit?resourcekey=&gid=1518887080#gid=1518887080",
+    },
+    {
+      label: "DOCUMENTACION PACIENTES NUEVOS",
+      url: "https://docs.google.com/spreadsheets/d/19RXNnwYOXUSBowWhmxBRG5r8hJJzF7NrTbFHiN_QjuQ/edit?resourcekey=&gid=1962368892#gid=1962368892",
+    },
+    {
       label: "CONTROL HEMODINAMIA",
       url: "https://docs.google.com/spreadsheets/d/12K0M2iVDr2W1xaI5HQlYUtFfyHaSn7dt/edit?gid=358932270#gid=358932270",
     },
@@ -48,6 +56,15 @@ export const Navbar = () => {
             SIPACH 2026
           </a>
         </li>
+        <li className="excel">
+          <a
+            href="https://docs.google.com/spreadsheets/d/1Mm-2qy5c4JRSzmvEimkmqg-v6mTyiBsiqY9qPOBwH5o/edit?gid=0#gid=0"
+            target="_blank"
+          >
+            PACIENTES BOLSAS Y SONDAS
+          </a>
+        </li>
+
         <li className="excel">
           <a
             href="https://docs.google.com/spreadsheets/d/12PYvg9NQo7h5kpc2T4iowj7KtClsAnK1I20iKrzMXpM/edit?gid=1993836479#gid=1993836479"
