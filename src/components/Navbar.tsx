@@ -62,7 +62,7 @@ export const Navbar = () => {
             href="https://docs.google.com/spreadsheets/d/1Mm-2qy5c4JRSzmvEimkmqg-v6mTyiBsiqY9qPOBwH5o/edit?gid=0#gid=0"
             target="_blank"
           >
-            PACIENTES BOLSAS Y SONDAS
+            BOLSAS Y SONDAS
           </a>
         </li>
 
@@ -84,7 +84,7 @@ export const Navbar = () => {
         </li>
 
         <li className="gob">
-          <a href="https://gdeba.gba.gob.ar/" target="_blank">
+          <a href="https://cas.gdeba.gba.gob.ar/acceso/login/" target="_blank">
             GDEBA
           </a>
         </li>

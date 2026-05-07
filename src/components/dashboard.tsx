@@ -18,7 +18,7 @@ export const Dashboard = () => {
               "https://www.sssalud.gob.ar/index.php?page=bus650&user=GRAL&cat=consultas",
               "https://sisa.msal.gov.ar/sisa/#sisa",
               "https://www.pami.org.ar/constancia-afiliacion-negativa",
-              "http://sistemasl.ioma.gba.gov.ar/sistemas/consulta_padron_afiliados/consulta_afiliados.php",
+              "https://sistemas.ioma.gba.gov.ar/ConsultaAfiliado/",
             ])
           }
         />
@@ -37,7 +37,7 @@ export const Dashboard = () => {
             label="SS"
             onClick={() =>
               openUrl(
-                "https://www.sssalud.gob.ar/index.php?page=bus650&user=GRAL&cat=consultas"
+                "https://www.sssalud.gob.ar/index.php?page=bus650&user=GRAL&cat=consultas",
               )
             }
           />
@@ -54,9 +54,7 @@ export const Dashboard = () => {
           <Btn
             label="IOMA"
             onClick={() =>
-              openUrl(
-                "http://sistemasl.ioma.gba.gov.ar/sistemas/consulta_padron_afiliados/consulta_afiliados.php"
-              )
+              openUrl("https://sistemas.ioma.gba.gov.ar/ConsultaAfiliado/")
             }
           />
         </div>
@@ -73,7 +71,7 @@ export const Dashboard = () => {
               label="MAIL PROVEEDORES"
               onClick={() =>
                 openUrl(
-                  "https://webmail.proveedoresba.cgp.gba.gov.ar/webmail/?_task=mail&_mbox=INBOX"
+                  "https://webmail.proveedoresba.cgp.gba.gov.ar/webmail/?_task=mail&_mbox=INBOX",
                 )
               }
             />
@@ -91,6 +89,11 @@ export const Dashboard = () => {
             <span className="spanDatosOficina">
               Gmail: bancodeprotesis.higasanmartin@gmail.com
             </span>
+          </div>
+          <div className="datosIoma">
+            <span className="spanIoma">Cuenta de Ioma:</span>
+            <span className="spanIoma">Usuario: 30626983398 </span>
+            <span className="spanIoma">Contraseña: higasanjose </span>
           </div>
         </div>
       </div>

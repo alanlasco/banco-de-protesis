@@ -58,6 +58,19 @@
     padding: 1.5rem;
 }
 
+.datosIoma {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+.spanDatosIoma {
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .dashboard {
