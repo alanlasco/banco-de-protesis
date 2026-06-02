@@ -11,6 +11,7 @@ export const Dashboard = () => {
         <p className="texto">NEGATIVAS</p>
 
         <Btn
+          className="btn"
           label="ABRIR 5 NEGATIVAS"
           onClick={() =>
             openMultipleUrls([
@@ -23,17 +24,20 @@ export const Dashboard = () => {
           }
         />
         <Btn
+          className="btn"
           label="NEGATIVA ANSES(CODEM)"
           onClick={() => openUrl("https://servicioswww.anses.gob.ar/ooss2/")}
         />
         <div className="negativas">
           <Btn
+            className="btn"
             label="ANSES"
             onClick={() =>
               openUrl("https://servicioswww.anses.gob.ar/censite/Index.aspx")
             }
           />
           <Btn
+            className="btn"
             label="SS"
             onClick={() =>
               openUrl(
@@ -42,16 +46,19 @@ export const Dashboard = () => {
             }
           />
           <Btn
+            className="btn"
             label="PUCO"
             onClick={() => openUrl("https://sisa.msal.gov.ar/sisa/#sisa")}
           />
           <Btn
+            className="btn"
             label="PAMI"
             onClick={() =>
               openUrl("https://www.pami.org.ar/constancia-afiliacion-negativa")
             }
           />
           <Btn
+            className="btn"
             label="IOMA"
             onClick={() =>
               openUrl("https://sistemas.ioma.gba.gov.ar/ConsultaAfiliado/")
@@ -64,10 +71,12 @@ export const Dashboard = () => {
         <div className="cuil-container">
           <div className="cuil-links">
             <Btn
+              className="btn"
               label="WEB MAIL"
               onClick={() => openUrl("https://webmail.ms.gba.gov.ar/")}
             />{" "}
             <Btn
+              className="btn"
               label="MAIL PROVEEDORES"
               onClick={() =>
                 openUrl(
@@ -76,10 +85,12 @@ export const Dashboard = () => {
               }
             />
             <Btn
+              className="btn"
               label="GMAIL"
               onClick={() => openUrl("https://mail.google.com/mail/u/0/#inbox")}
             />
             <Btn
+              className="btn"
               label="WhatsApp"
               onClick={() => openUrl("https://web.whatsapp.com/")}
             />
@@ -102,18 +113,21 @@ export const Dashboard = () => {
         <div className="cuil-container">
           <div className="cuil-links">
             <Btn
+              className="btn"
               label="CONSTANCIA ANSES"
               onClick={() =>
                 openUrl("https://servicioswww.anses.gob.ar/C2-ConstaCUIL")
               }
             />{" "}
             <Btn
+              className="btn"
               label="CONSTANCIA ARGENTINA.GOB"
               onClick={() =>
                 openUrl("https://www.argentina.gob.ar/descarga-constancia-cuil")
               }
             />
             <Btn
+              className="btn"
               label="MI CUIL"
               onClick={() =>
                 openUrl("https://micuilonline.com.ar/averiguar-cuil-cuit")
@@ -124,17 +138,26 @@ export const Dashboard = () => {
         <CuilCalculator />
       </div>
       <div className="section">
-        <p className="ilovepdf">ILOVEPDF</p>
+        <p className="texto">HERRAMIENTAS</p>
+        <div className="cuil-container">
+          <Btn
+            className="btn"
+            label="LISTADO DE PACIENTES"
+            onClick={() =>
+              openUrl("https://alanlasco.github.io/gestion-pacientes-bolsas/")
+            }
+          />{" "}
+          <Btn
+            className="encender"
+            label="ENCENDER BASE DE DATOS"
+            onClick={() => openUrl("https://replit.com/~")}
+          />
+        </div>
 
         <Btn
+          className="btn"
           label="UNIR PDF"
           onClick={() => openUrl("https://www.ilovepdf.com/es/unir_pdf")}
-        />
-        <Btn
-          label="EXTRAER PAGINAS"
-          onClick={() =>
-            openUrl("https://www.ilovepdf.com/es/dividir_pdf#split,extract")
-          }
         />
       </div>
     </div>
