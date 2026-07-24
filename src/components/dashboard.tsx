@@ -16,7 +16,7 @@ export const Dashboard = () => {
           onClick={() =>
             openMultipleUrls([
               "https://servicioswww.anses.gob.ar/censite/Index.aspx",
-              "https://www.sssalud.gob.ar/index.php?page=bus650&user=GRAL&cat=consultas",
+              "https://www.sssalud.gob.ar/index.php?b_publica=Acceso+P%C3%BAblico&user=GRAL&page=bus650",
               "https://sisa.msal.gov.ar/sisa/#sisa",
               "https://www.pami.org.ar/constancia-afiliacion-negativa",
               "https://sistemas.ioma.gba.gov.ar/ConsultaAfiliado/",
@@ -41,7 +41,7 @@ export const Dashboard = () => {
             label="SS"
             onClick={() =>
               openUrl(
-                "https://www.sssalud.gob.ar/index.php?page=bus650&user=GRAL&cat=consultas",
+                "https://www.sssalud.gob.ar/index.php?b_publica=Acceso+P%C3%BAblico&user=GRAL&page=bus650",
               )
             }
           />
@@ -104,7 +104,7 @@ export const Dashboard = () => {
           <div className="datosIoma">
             <span className="spanIoma">Cuenta de Ioma:</span>
             <span className="spanIoma">Usuario: 30626983398 </span>
-            <span className="spanIoma">Contraseña: higasanjose </span>
+            <span className="spanIoma">Contraseña: CpA61857 </span>
           </div>
         </div>
       </div>
@@ -158,6 +158,15 @@ export const Dashboard = () => {
           className="btn"
           label="UNIR PDF"
           onClick={() => openUrl("https://www.ilovepdf.com/es/unir_pdf")}
+        />
+        <Btn
+          className="btn"
+          label="BUSCADOR DE MATRICULAS"
+          onClick={() =>
+            openUrl(
+              "https://www.argentina.gob.ar/salud/buscador-nacional-de-profesionales-de-la-salud",
+            )
+          }
         />
       </div>
     </div>
