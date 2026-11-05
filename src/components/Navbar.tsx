@@ -10,6 +10,10 @@ export const Navbar = () => {
 
   const hojasdecalculo = [
     {
+      label: "NOMINALIZACIONES COLUMNA",
+      url: "https://docs.google.com/spreadsheets/d/1QMb9touMLpgT-1_SfqcdPC6jovWUBCmILfWs1b-XSlU/edit?gid=0#gid=0",
+    },
+    {
       label: "ENTREGA BOLSAS Y SONDAS",
       url: "https://docs.google.com/spreadsheets/d/1wPS4OxNh17smKOfDKGLNuhzYADN0AqQlaJXreqWg-iE/edit?resourcekey=&gid=1518887080#gid=1518887080",
     },
@@ -59,10 +63,10 @@ export const Navbar = () => {
         </li>
         <li className="excel">
           <a
-            href="https://docs.google.com/spreadsheets/d/1Mm-2qy5c4JRSzmvEimkmqg-v6mTyiBsiqY9qPOBwH5o/edit?gid=0#gid=0"
+            href="https://docs.google.com/spreadsheets/d/1kCIPkVJs2w-Or749vJa1BulcPGKWRRd7d7ybeGNG2H4/edit?gid=835360823#gid=835360823"
             target="_blank"
           >
-            BOLSAS Y SONDAS
+            EXP DE PAGOS
           </a>
         </li>
 

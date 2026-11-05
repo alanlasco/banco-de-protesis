@@ -16,7 +16,7 @@ export const Dashboard = () => {
           onClick={() =>
             openMultipleUrls([
               "https://servicioswww.anses.gob.ar/censite/Index.aspx",
-              "https://www.sssalud.gob.ar/index.php?b_publica=Acceso+P%C3%BAblico&user=GRAL&page=bus650",
+              "https://publico.sssalud.gob.ar/padron",
               "https://sisa.msal.gov.ar/sisa/#sisa",
               "https://www.pami.org.ar/constancia-afiliacion-negativa",
               "https://sistemas.ioma.gba.gov.ar/ConsultaAfiliado/",
@@ -38,12 +38,8 @@ export const Dashboard = () => {
           />
           <Btn
             className="btn"
-            label="SS"
-            onClick={() =>
-              openUrl(
-                "https://www.sssalud.gob.ar/index.php?b_publica=Acceso+P%C3%BAblico&user=GRAL&page=bus650",
-              )
-            }
+            label="SSS"
+            onClick={() => openUrl("https://publico.sssalud.gob.ar/padron")}
           />
           <Btn
             className="btn"
@@ -103,8 +99,12 @@ export const Dashboard = () => {
           </div>
           <div className="datosIoma">
             <span className="spanIoma">Cuenta de Ioma:</span>
-            <span className="spanIoma">Usuario: 30626983398 </span>
-            <span className="spanIoma">Contraseña: CpA61857 </span>
+            <span className="spanIoma">
+              Usuario: 20404233654 | 20367779706 | 27323933133{" "}
+            </span>
+            <span className="spanIoma">
+              Contraseña: 20404233654 | 20367779706 | 27323933133{" "}
+            </span>
           </div>
         </div>
       </div>
